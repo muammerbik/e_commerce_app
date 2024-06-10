@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ProductImage extends StatelessWidget {
   final String? imageUrl;
@@ -14,7 +15,7 @@ class ProductImage extends StatelessWidget {
               topRight: Radius.circular(12),
             ),
             child: Container(
-              height: 200,
+              height: 200.h,
               width: double.infinity,
               decoration: BoxDecoration(
                 image: DecorationImage(
@@ -25,7 +26,7 @@ class ProductImage extends StatelessWidget {
             ),
           )
         : Container(
-            height: 200,
+            height: 200.h,
             width: double.infinity,
             color: Colors.grey,
             child: const Center(

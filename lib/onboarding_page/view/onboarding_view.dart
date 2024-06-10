@@ -57,14 +57,14 @@ class OnboardingView extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
-                     Padding(
+                    Padding(
                       padding: EdgeInsets.symmetric(vertical: 80.w),
                       child: const OnboardingTextWidget(),
                     ),
                     SignInWithGoogleButton(
                       onTap: () => _signInWithGoogle(context),
                     ),
-                     SizedBox(
+                    SizedBox(
                       height: 15.h,
                     ),
                     const PrivacyPolicyWidget(),

@@ -8,6 +8,7 @@ import 'package:mami_onesignal_flutter/home_page/widgets/price_and_discount.dart
 import 'package:mami_onesignal_flutter/home_page/widgets/product_image.dart';
 import 'package:mami_onesignal_flutter/home_page/widgets/products_info.dart';
 import 'package:mami_onesignal_flutter/service/ecommerce_api_model.dart';
+
 class CustomCard extends StatefulWidget {
   final EcommerceApimodel item;
   final int index;
@@ -38,7 +39,9 @@ class _CustomCardState extends State<CustomCard> {
         final originalPrice = product.price ?? 0.0;
         final discountedPrice =
             originalPrice - (originalPrice * discount / 100);
-        final isFavorite = state.favoriteProducts?.any((p) => p.name == widget.item.name) ?? false;
+        final isFavorite =
+            state.favoriteProducts?.any((p) => p.name == widget.item.name) ??
+                false;
 
         return Container(
           decoration: BoxDecoration(
@@ -59,7 +62,9 @@ class _CustomCardState extends State<CustomCard> {
                       alignment: Alignment.topRight,
                       child: IconButton(
                         onPressed: () {
-                          context.read<HomeBloc>().add(FavoriteButtonTappedEvent(widget.item));
+                          context
+                              .read<HomeBloc>()
+                              .add(FavoriteButtonTappedEvent(widget.item));
                         },
                         icon: Image.asset(
                           isFavorite
