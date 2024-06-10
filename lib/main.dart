@@ -5,7 +5,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mami_onesignal_flutter/firebase_options.dart';
 import 'package:mami_onesignal_flutter/home_page/bloc/home_bloc.dart';
-import 'package:mami_onesignal_flutter/home_page/view/home_page_view.dart';
 import 'package:mami_onesignal_flutter/onboarding_page/view/onboarding_view.dart';
 
 Future<void> main() async {
@@ -35,7 +34,7 @@ class MyApp extends StatelessWidget {
           create: (context) => HomeBloc(),
           child: const MaterialApp(
             debugShowCheckedModeBanner: false,
-            home: HomePageView(),
+            home: OnboardingView(),
           ),
         );
       },
