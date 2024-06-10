@@ -42,7 +42,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       emit(state.copyWith(
         status: HomeStatus.success,
         ecommerceList: productList,
-        allProducts: productList, // Store all products initially
+        allProducts: productList, 
       ));
     } catch (e) {
       emit(state.copyWith(status: HomeStatus.error));
