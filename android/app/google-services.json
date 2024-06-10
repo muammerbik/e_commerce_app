@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "573916103767",
+    "project_id": "flutter-one-signal-2c838",
+    "storage_bucket": "flutter-one-signal-2c838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573916103767:android:a95b362091a6d927c0cf12",
+        "android_client_info": {
+          "package_name": "com.example.flutter_onesignal_usage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573916103767-2fjrb0tf8t1bithi4nn8s8a6idr9r9oj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_onesignal_usage",
+            "certificate_hash": "1cc9c7f642b600eeef072926836375f25c1892c4"
+          }
+        },
+        {
+          "client_id": "573916103767-o8birmcggv5qehgt091qjmbs31nd7g8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLb9J2a5UJsWoDqOC8ygDZsipVjtab28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573916103767-o8birmcggv5qehgt091qjmbs31nd7g8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573916103767-74027sj4cvh90d436hj6iaa9dc3c0ov0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onesignalFlutter.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573916103767:android:67173b518ee2d18ac0cf12",
+        "android_client_info": {
+          "package_name": "com.example.messaging_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573916103767-o8birmcggv5qehgt091qjmbs31nd7g8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLb9J2a5UJsWoDqOC8ygDZsipVjtab28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573916103767-o8birmcggv5qehgt091qjmbs31nd7g8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573916103767-74027sj4cvh90d436hj6iaa9dc3c0ov0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onesignalFlutter.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573916103767:android:5f7b07662b42e5d9c0cf12",
+        "android_client_info": {
+          "package_name": "com.example.onesignal_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573916103767-r72fvhclqmq37a3qorcusqjgpq1ed04s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onesignal_flutter",
+            "certificate_hash": "1cc9c7f642b600eeef072926836375f25c1892c4"
+          }
+        },
+        {
+          "client_id": "573916103767-o8birmcggv5qehgt091qjmbs31nd7g8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLb9J2a5UJsWoDqOC8ygDZsipVjtab28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573916103767-o8birmcggv5qehgt091qjmbs31nd7g8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573916103767-74027sj4cvh90d436hj6iaa9dc3c0ov0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onesignalFlutter.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
